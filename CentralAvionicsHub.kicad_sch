@@ -6038,6 +6038,16 @@
 		)
 		(uuid "ff0882b9-fa1b-421b-a100-b30b697afa10")
 	)
+	(label "PFD_V+"
+		(at 200.66 91.44 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "05957483-e6a0-4c25-aec5-f0d8c824c44c")
+	)
 	(label "Mag_Power"
 		(at 172.72 116.84 180)
 		(effects
@@ -6118,6 +6128,16 @@
 		)
 		(uuid "1eb9f1e6-d136-4a06-9293-0fabc359c458")
 	)
+	(label "AF_Spare_V+_3"
+		(at 251.3928 71.12 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "1effeec9-1291-4e60-ae1f-0706d09919e6")
+	)
 	(label "AP_Serial_RX_1"
 		(at 179.07 193.04 90)
 		(effects
@@ -6137,6 +6157,16 @@
 			(justify right bottom)
 		)
 		(uuid "2576eef9-7899-4a68-ae2f-d0927109238b")
+	)
+	(label "MFD_V+"
+		(at 177.8 64.77 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "25a68de7-eb26-413a-ab88-0bbe507a3e49")
 	)
 	(label "ARINC_Serial_RX_1"
 		(at 172.72 101.6 180)
@@ -6398,6 +6428,26 @@
 		)
 		(uuid "683506b4-f770-4588-8c85-8fcb35215877")
 	)
+	(label "AF_Spare_V+_2"
+		(at 251.46 63.5 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "6b972d4c-3121-47ce-938b-1dc2da207d6b")
+	)
+	(label "Pitch_Servo_V+"
+		(at 251.46 68.58 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "6b9a29d1-59ad-4506-a274-176600f95879")
+	)
 	(label "AP_Serial_RX"
 		(at 287.02 104.14 180)
 		(effects
@@ -6447,6 +6497,26 @@
 			(justify right bottom)
 		)
 		(uuid "7d7c2daa-e81d-4019-ba7b-29bc5fc6e0a8")
+	)
+	(label "Spare_Switchpanel_V+"
+		(at 251.46 58.42 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "82122a81-c809-419f-9568-f1ca2808b206")
+	)
+	(label "NavCom_V+"
+		(at 227.33 81.28 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "8372694a-d8fb-4eba-b3f4-99c93f6e2c58")
 	)
 	(label "EIS_Light"
 		(at 287.02 137.16 180)
@@ -6818,7 +6888,7 @@
 		)
 		(uuid "c7ea04ff-64a0-4aff-bd94-8da6e8faa864")
 	)
-	(label "NavCom_SerialTX"
+	(label "NavCom_Serial_TX"
 		(at 172.72 104.14 180)
 		(effects
 			(font
@@ -6887,6 +6957,16 @@
 			(justify right bottom)
 		)
 		(uuid "d0fb06a1-7c83-4249-a031-01485aaa4640")
+	)
+	(label "Annunciator_V+"
+		(at 251.46 55.88 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "d34be50a-eeab-4bb7-8816-d35c4a64b62c")
 	)
 	(label "L_Fuel_Light"
 		(at 245.11 193.04 90)
@@ -6997,6 +7077,36 @@
 			(justify left bottom)
 		)
 		(uuid "ed0c7faf-443d-4949-8af2-ab8a69efb70b")
+	)
+	(label "AF_Spare_V+_1"
+		(at 251.46 66.04 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "f0fb18f1-53e3-4c05-87b2-42cef84583a4")
+	)
+	(label "GPS_V+"
+		(at 146.05 62.23 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "f2b7de19-f4ba-4439-a769-8e35250af231")
+	)
+	(label "Roll_Servo_V+"
+		(at 251.46 60.96 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "f722a9d7-027a-4422-944d-a360e105d1b1")
 	)
 	(label "MFD_AUX2"
 		(at 172.72 144.78 180)

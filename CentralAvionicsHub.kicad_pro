@@ -508,11 +508,11 @@
     "last_paths": {
       "gencad": "",
       "idf": "",
-      "netlist": "",
+      "netlist": "./",
       "plot": "",
       "pos_files": "",
       "specctra_dsn": "",
-      "step": "../../Downloads/3D Print Models/CentralAvionicsHub.stl",
+      "step": "../../Downloads/3D Print Models/CentralAvionicsHub.step",
       "svg": "",
       "vrml": ""
     },
