@@ -6,7 +6,7 @@
 	(paper "B")
 	(title_block
 		(title "Avionics Wiring Hub")
-		(date "2025-11-13")
+		(date "2025-11-23")
 		(rev "0")
 		(company "Ahner Engineering")
 		(comment 1 "PFD: GRT Horizon 10.1")
