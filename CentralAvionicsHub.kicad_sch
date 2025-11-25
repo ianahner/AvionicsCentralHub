@@ -7915,7 +7915,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
+		(property "Footprint" "Resistor_SMD:R_1206_3216Metric_Pad1.30x1.75mm_HandSolder"
 			(at 296.418 180.34 90)
 			(effects
 				(font
@@ -8113,7 +8113,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Connector_Dsub:DSUB-15_Socket_Vertical_P2.77x2.84mm_MountingHoles"
+		(property "Footprint" "TE_DSUB:5787683 15 Pin Female Vertical"
 			(at 215.9 46.99 0)
 			(effects
 				(font
@@ -8292,7 +8292,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
+		(property "Footprint" "Resistor_SMD:R_1206_3216Metric_Pad1.30x1.75mm_HandSolder"
 			(at 281.178 180.34 90)
 			(effects
 				(font
@@ -8505,7 +8505,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
+		(property "Footprint" "Resistor_SMD:R_1206_3216Metric_Pad1.30x1.75mm_HandSolder"
 			(at 288.798 180.34 90)
 			(effects
 				(font
@@ -9233,7 +9233,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
+		(property "Footprint" "Resistor_SMD:R_1206_3216Metric_Pad1.30x1.75mm_HandSolder"
 			(at 311.658 180.34 90)
 			(effects
 				(font
@@ -9303,7 +9303,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Fuse:Fuse_0805_2012Metric"
+		(property "Footprint" "fuse_holder:FUSE_3568"
 			(at 119.38 175.26 0)
 			(effects
 				(font
@@ -10586,7 +10586,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
+		(property "Footprint" "Resistor_SMD:R_1206_3216Metric_Pad1.30x1.75mm_HandSolder"
 			(at 304.038 180.34 90)
 			(effects
 				(font

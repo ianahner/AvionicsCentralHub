@@ -1,0 +1,120 @@
+(footprint "63824"
+	(version 20241229)
+	(generator "pcbnew")
+	(generator_version "9.0")
+	(layer "F.Cu")
+	(descr "250 FASTON TAB, Through Hole")
+	(property "Reference" "REF**"
+		(at 0 -4 0)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(uuid "f03ef09e-c1c3-436c-8440-391cdeae34d4")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.1)
+			)
+		)
+	)
+	(property "Value" "63824"
+		(at 9.5 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "a461e89b-d6c4-4a23-91b4-82d19bc59d36")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "b619a66b-13c8-47ee-aa4f-fdb872ef50e9")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "f5652e2d-8c99-461d-9884-c917e346dfc5")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr through_hole)
+	(fp_rect
+		(start -3.9624 -1.5875)
+		(end 3.9624 1.5875)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(fill no)
+		(layer "F.SilkS")
+		(uuid "2a07b62e-e796-4e73-9382-2b575f399dbd")
+	)
+	(fp_rect
+		(start -5 -2.5)
+		(end 5 2.5)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(fill no)
+		(layer "F.CrtYd")
+		(uuid "af2dd680-3758-4cde-bd88-67da4b58783a")
+	)
+	(fp_text user "${REFERENCE}"
+		(at 0 4.5 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "31ef9338-eb4e-411f-b29c-cff74f1deefe")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(pad "1" thru_hole circle
+		(at -2.54 0)
+		(size 2.54 2.54)
+		(drill 1.397)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "0eb40409-5c96-466d-a9b4-000eb0ee6a65")
+	)
+	(pad "1" thru_hole circle
+		(at 2.54 0)
+		(size 2.54 2.54)
+		(drill 1.397)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "117a47ee-8f9e-45cb-ad04-5690a3782de8")
+	)
+	(embedded_fonts no)
+	(model "${KIPRJMOD}/3D Models/c-63824-5-ad-3d.stp"
+		(offset
+			(xyz 0 0 10.16)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz -0 -0 -0)
+		)
+	)
+)
