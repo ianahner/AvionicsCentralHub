@@ -25,7 +25,14 @@ The board is slightly larger in outside dimensions than the SafeFly, but the mou
 
 In the future I plan to design a simple 3D printed cover for this board. I'll add it to this repo if/when that ever happens.
 
-## Resistor values assumptions
+## Audio Mixing Resistors
+This audio mixing solution is of course not intended to be a high fidelity audio solution. The intention here is to mix the mono "annunciator" signals from instruments for messages like "AP Disconnect" or "Minimums." I highly discourage anyone from using this solution for something like radio audio or even non-essential music audio as the results are likely to be less than desirable. For the purposes of mixing alert tones, it should be perfectly acceptable.
+
+The resistors exist simply to prevent one audio device from backfeeding the driver of another device. The value was chosen based on the output impedance of the devices I have, but should be reasonable for the vast majority of situations you're likely to encounter. 
+
+As an aside, though this LOOKS extremely hacky (and it sort of is) it comes straight out of the manual for the PSE certified intercom and others, and is a rather common old-school approach to audio mixing, back before engineering was invented. 
+
+## LED Series Resistor values assumptions
 The LED series resistors R1-R5 are optional for use with panel mount LEDs that either don't have a series resistor, or have a voltage range that isn't high enough for the 14.5V our alternators tend to run. 
 
 The resistor specified in the BOM below is a 620Ω which was calculated to provide 20mA to a 2V LED assuming a bus voltage of 14.5V. Adjust this to your needs, or simply install a 0Ω jumper. 
@@ -47,9 +54,9 @@ QTY | DK PN | REFs
 5 | A35183-ND | J1, J2, J3, J4, J5
 1 | A35186-ND | J9
 2 | 63824 | J6, J7
-1 | A35186-ND | J9
 5 | 541-RCP1206W620RFEACT-ND | R1, R2, R3, R4, R5
 3 | RMCF0805JT470RCT-ND | R6, R7, R8
+
 
 
 
