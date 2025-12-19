@@ -512,7 +512,7 @@
       "plot": "Gerbers/",
       "pos_files": "",
       "specctra_dsn": "",
-      "step": "../../Downloads/3D Print Models/CentralAvionicsHub.step",
+      "step": "CentralAvionicsHub.step",
       "svg": "",
       "vrml": ""
     },
